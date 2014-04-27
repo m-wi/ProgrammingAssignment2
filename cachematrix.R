@@ -14,11 +14,12 @@ makeCacheMatrix <- function(x = matrix()) {
         }
 	# gets and sets the value of the vector
         get <- function() x
+        # set of mean
         setmean <- function(mean) m <<- mean
+        # get the mean
         getmean <- function() m
-        list(set = set, get = get,
-             setmean = setmean,
-             getmean = getmean)
+        # lists the
+        list(set = set, get = get, setmean = setmean, getmean = getmean)
 }
 
 }
